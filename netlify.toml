@@ -3,3 +3,10 @@
 from = "/*"
 to = "index.html"
 
+
+[[redirects]]
+
+from = "/payment-success*"
+to = "index.html"
+
+
