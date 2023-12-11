@@ -5,10 +5,12 @@ import {
   PaymentElement,
 } from "@stripe/react-stripe-js";
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 function PaymentForm() {
   const stripe = useStripe();
   const elements = useElements();
+  const navigate = useNavigate();
 
   const clientSecret = useSelector((state) => state.stripeInfo.clientSecret);
 
@@ -25,9 +27,14 @@ function PaymentForm() {
       confirmParams: {
         return_url: "https://podisland.netlify.app/payment-success",
       },
+      redirect: 'if_required',
     });
 
-    if (result.error) {
+    if (result.ok)
+    {
+      navigate("/payment-success");
+    }
+    else if (result.error) {
       //console.log(result.error.message);
     } else {
     }
