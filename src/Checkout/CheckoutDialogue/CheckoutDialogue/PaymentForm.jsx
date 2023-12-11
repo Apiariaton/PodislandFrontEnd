@@ -25,16 +25,11 @@ function PaymentForm() {
     const result = await stripe.confirmPayment({
       elements,
       confirmParams: {
-        return_url: "https://podisland.netlify.app/payment-success",
+        return_url: "payment-success",
       },
-      redirect: 'if_required',
     });
 
-    if (result.ok)
-    {
-      navigate("/payment-success");
-    }
-    else if (result.error) {
+    if (result.error) {
       //console.log(result.error.message);
     } else {
     }
