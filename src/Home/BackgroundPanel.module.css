@@ -51,15 +51,91 @@
 
 
 /* 550 pixels */
-@media screen and (min-width:550px) and (max-width:1129px)
+@media screen and (min-width:550px) and (max-width:769px)
 {
     .background_panel {
         background-image: url("../assets/images/Grass.png");
         background-size: contain;
         background-repeat:no-repeat;
-        height:60rem;
+        height:42rem;
         width:100vw;
         display:flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .logo {
+        background-image: url("../assets/images/PodislandLogo.png");
+        background-size: contain;
+        background-repeat:no-repeat;
+        height:20rem;
+        width:60%;
+        display: flex;
+        margin-bottom:0rem;
+    }
+}
+
+@media screen and (min-width:770px) and (max-width:899px)
+{
+    .background_panel {
+        background-image: url("../assets/images/Grass.png");
+        background-size: contain;
+        background-repeat:no-repeat;
+        height:44rem;
+        width:100vw;
+        display:flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .logo {
+        background-image: url("../assets/images/PodislandLogo.png");
+        background-size: contain;
+        background-repeat:no-repeat;
+        height:20rem;
+        width:60%;
+        display: flex;
+        margin-bottom:0rem;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1129px)
+{
+    .background_panel {
+        background-image: url("../assets/images/Grass.png");
+        background-size: contain;
+        background-repeat:no-repeat;
+        height:55rem;
+        width:100vw;
+        display:flex;
+        justify-content: center;
+        align-items: flex-end;
+
+    }
+
+    .logo {
+        background-image: url("../assets/images/PodislandLogo.png");
+        background-size: contain;
+        background-repeat:no-repeat;
+        height:20rem;
+        width:60%;
+        display: flex;
+        margin-bottom:10rem;
+    }
+}
+
+
+/* 1130px */
+@media screen and (min-width:1130px) and (max-width:1399px)
+{
+
+    .background_panel {
+        background-image: url("../assets/images/Grass.png");
+        background-size: cover;
+        background-repeat:no-repeat;
+        height:45rem;
+        width:100%;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -68,18 +144,16 @@
         background-image: url("../assets/images/PodislandLogo.png");
         background-size: contain;
         background-repeat:no-repeat;
-        height:25rem;
+        height:10rem;
         width:60%;
-        display: flex;
-        margin-bottom:-10rem;
+        margin-top: 5rem;
     }
 
 
 }
 
 
-/* 1130px */
-@media screen and (min-width:1130px)
+@media screen and (min-width:1400px)
 {
 
     .background_panel {
