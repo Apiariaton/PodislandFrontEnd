@@ -23,7 +23,7 @@ function PaymentForm() {
     const result = await stripe.confirmPayment({
       elements,
       confirmParams: {
-        return_url: "https://podisland.netlify.app/payment-success/",
+        return_url: "https://podisland.netlify.app/payment-success",
       },
     });
 
