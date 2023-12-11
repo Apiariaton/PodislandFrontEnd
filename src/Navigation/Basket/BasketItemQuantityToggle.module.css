@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Almarai";
+    src: url("../assets/fonts/Almarai/Almarai-Regular.ttf") format('truetype');
+}
+
+@media screen and (max-width:449px)
+{
+    .toggleContainer {
+        display: flex;
+        width:20rem;
+        flex-direction: row;
+        margin-left:10%;
+    }
+    
+    .toggleContainer button {
+        color:black;
+        background-color:#E8E6E6;
+        border-radius: 1rem 1rem 1rem 1rem;
+        padding:1%;
+        border:none;
+        width:3rem;
+        height:3rem;
+    
+    }   
+}
+
+@media screen and (min-width:500px)
+{
+
+.toggleContainer {
+    display: flex;
+    width:20rem;
+    flex-direction: row;
+    margin-left:10%;
+}
+
+.toggleContainer button {
+    color:black;
+    background-color:#E8E6E6;
+    border-radius: 1rem 1rem 1rem 1rem;
+    padding:1%;
+    border:none;
+    width:2rem;
+    height:2rem;
+
+}
+
+}

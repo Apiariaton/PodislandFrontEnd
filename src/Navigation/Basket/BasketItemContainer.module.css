@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Almarai";
+    src: url("../assets/fonts/Almarai/Almarai-Regular.ttf") format('truetype');
+}
+
+@media screen and (max-width:449px)
+{
+
+.basketItemContainer
+{
+    width:100%;
+    padding-left:2.5%;
+}
+
+li.basketItem {
+    list-style-type:none;
+    font-family:"Almarai",sans-serif;
+    margin-bottom: 1%;
+    font-weight:bold;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:40%;
+}
+
+.quantityDescContainer {
+    font-family:"Almarai",sans-serif;
+    margin-bottom: 1%;
+    font-weight:bold;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:120%;
+    align-items: center;
+
+
+}
+
+}
+
+@media screen and (min-width:450px)
+{
+
+.basketItemContainer
+{
+    width:100%;
+    padding-left:2.5%;
+}
+
+li.basketItem {
+    list-style-type:none;
+    font-family:"Almarai",sans-serif;
+    margin-bottom: 1%;
+    font-weight:bold;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:50%;
+}
+
+.quantityDescContainer {
+    font-family:"Almarai",sans-serif;
+    margin-bottom: 1%;
+    font-weight:bold;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:80%;
+    align-items: center;
+
+
+}
+
+}

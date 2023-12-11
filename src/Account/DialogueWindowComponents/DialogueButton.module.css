@@ -1,0 +1,43 @@
+@media screen and (max-width:449px)
+{
+.dialogueButton {
+    color:white;
+    width: 12.6rem;
+    height:2.1rem;
+    margin-bottom:1rem;
+    font-family:"Almarai",sans-serif;
+    font-size:0.84rem;
+    border:none;
+}
+}
+
+@media screen and (min-width:450px)
+{
+.dialogueButton {
+    color:white;
+    width: 18rem;
+    height:3rem;
+    margin-bottom:1rem;
+    font-family:"Almarai",sans-serif;
+    font-size:1.2rem;
+    border:none;
+}
+}
+
+.deleteAccount {
+    background-color: #DB4437;
+}
+
+.resetPassword {
+    
+    background-color: #4285F4;
+}
+
+
+button.isDisabled.dialogueButton {
+    background-color:#D9D9D9;
+}
+
+.returnMenu {
+    background-color: #4285F4;
+}

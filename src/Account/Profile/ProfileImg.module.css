@@ -1,0 +1,6 @@
+.profileImg {
+    background-image: url("../../assets/images/PodislandUserProfileImage.png");
+    background-size: contain;
+    height:6rem;
+    width:6rem;
+}

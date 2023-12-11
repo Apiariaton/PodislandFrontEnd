@@ -1,0 +1,235 @@
+@font-face {
+    font-family: "Maven Pro";
+    src: url("../../assets/fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf")
+      format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @media screen and (max-width:449px)
+  {
+      
+
+    .baseSearchBox {
+        display:flex;
+        flex-direction:column;
+        background-color: white;
+        justify-content: center;
+        align-items:center;
+        padding-top:.66rem;
+    }  
+    
+    
+    .searchBox {
+        width:18.48rem;
+        height:6.93rem;
+        
+    }
+    
+    .searchBoxAS {
+            width:20rem;
+            height:25rem;
+            margin-top:3rem;
+    }
+    
+    
+    .closeASHeaderBox {
+        display:flex;
+        align-content: start;
+        justify-content: flex-end;
+        width:16.7rem;
+        position:relative;
+        top:18%;
+    }
+    
+    .closeAdvancedSearch {
+        border:none;
+        background-color: white;
+        height:.66rem;
+        font-size:0.33rem;
+        font-family:"Maven Pro","sans-serif";
+        color:black;
+        top:15%;
+    }
+    
+    .baseButton {
+        border:none;
+        height:1.32rem;
+        width:16.17rem;
+        border-radius: 15px 15px 15px 15px;
+        font-family:"Maven Pro","sans-serif";
+        margin-bottom:1%;
+    }
+    
+    
+    .submitButton {
+        background-color:#A44C4C;
+        color:white;
+    }
+    
+    
+    .openAdvancedSearch {
+        background-color:#D9D9D9;
+        color:white;
+    }
+    
+    
+    .filterField {
+        margin-bottom:5%;
+    }
+  
+  
+  }
+
+
+
+
+
+
+
+/* 
+@media screen and (min-width:400px) and (max-width:999px)
+{
+
+.baseSearchBox {
+    display:flex;
+    flex-direction:column;
+    background-color: white;
+    justify-content: center;
+    align-items:center;
+    padding-top:.66rem;
+}  
+
+
+.searchBox {
+    width:26.4rem;
+    height:9.9rem;
+}
+
+.searchBoxAS {
+        width:26.4rem;
+        height:14.52rem;
+}
+
+
+.closeASHeaderBox {
+    display:flex;
+    align-content: start;
+    justify-content: flex-end;
+    width:23.1rem;
+    position:relative;
+    top:35%;
+}
+
+.closeAdvancedSearch {
+    border:none;
+    background-color: white;
+    height:.66rem;
+    font-size:0.33rem;
+    font-family:"Maven Pro","sans-serif";
+    color:black;
+    top:15%;
+}
+
+.baseButton {
+    border:none;
+    height:1.32rem;
+    width:23.1rem;
+    border-radius: 15px 15px 15px 15px;
+    font-family:"Maven Pro","sans-serif";
+    margin-bottom:1%;
+}
+
+
+.submitButton {
+    background-color:#A44C4C;
+    color:white;
+}
+
+
+.openAdvancedSearch {
+    background-color:#D9D9D9;
+    color:white;
+}
+
+
+.filterField {
+    margin-bottom:5%;
+}
+
+} */
+
+
+@media screen and (min-width:450px)
+{
+
+.baseSearchBox {
+    display:flex;
+    flex-direction:column;
+    background-color: white;
+    justify-content: center;
+    align-items:center;
+    padding-top:1rem;
+}  
+
+
+.searchBox {
+    width:40rem;
+    height:15rem;
+}
+
+.searchBoxAS {
+        width:40rem;
+        height:25rem;
+}
+
+
+.closeASHeaderBox {
+    display:flex;
+    align-content: start;
+    justify-content: flex-end;
+    width:35rem;
+    position:relative;
+    top:35%;
+}
+
+.closeAdvancedSearch {
+    border:none;
+    background-color: white;
+    height:1rem;
+    font-size:0.5rem;
+    font-family:"Maven Pro","sans-serif";
+    color:black;
+}
+
+.baseButton {
+    border:none;
+    height:2rem;
+    width:35rem;
+    border-radius: 15px 15px 15px 15px;
+    font-family:"Maven Pro","sans-serif";
+    margin-bottom:1%;
+}
+
+
+.submitButton {
+    background-color:#A44C4C;
+    color:white;
+}
+
+
+.openAdvancedSearch {
+    background-color:#D9D9D9;
+    color:white;
+}
+
+
+.filterField {
+    margin-bottom:5%;
+}
+
+}
+
+.isDisabled {
+    background-color: #D9D9D9;
+}

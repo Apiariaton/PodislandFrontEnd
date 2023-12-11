@@ -1,0 +1,31 @@
+@media screen and (max-width:399px)
+{
+    
+    .top_panel
+{
+    background-color:#2C534D;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:30rem; /**35 rem originally **/
+    width:100%;
+}
+
+
+}
+
+@media screen and (min-width:400px)
+{
+    
+
+.top_panel
+{
+    background-color:#2C534D;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60rem; /**35 rem originally **/
+    width:100%;
+}
+
+}

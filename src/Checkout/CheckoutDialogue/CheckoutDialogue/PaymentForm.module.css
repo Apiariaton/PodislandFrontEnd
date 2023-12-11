@@ -1,0 +1,49 @@
+@media screen and (max-width:449px)
+{
+
+    .buttonContainer {
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+    
+    .paymentButton {
+    width:16rem;
+    height:3rem;
+    border:none;
+    background-color:#4285F4;
+    border-radius: 1rem;
+    color:white;
+    font-family:"Almarai",sans-serif;
+    font-size:1.1rem;
+    font-weight: bold;
+    margin-top:1rem;
+}
+
+
+
+}
+
+@media screen and (min-width:450px)
+{
+
+    .buttonContainer {
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+    
+    .paymentButton {
+    width:20rem;
+    height:3rem;
+    border:none;
+    background-color:#4285F4;
+    border-radius: 1rem;
+    color:white;
+    font-family:"Almarai",sans-serif;
+    font-size:1.1rem;
+    font-weight: bold;
+    margin-top:1rem;
+}
+
+}

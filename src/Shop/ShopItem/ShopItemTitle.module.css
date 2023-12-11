@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Inter&family=Poppins:wght@200&display=swap');
+
+@media screen and (max-width:999px)
+{
+.title {
+    color: #64BCDC;
+    font-family: "Almarai", sans-serif;
+    font-weight: bold;
+    width:100%;
+    padding:1.1%;
+    margin-left:5%;
+    margin-top: 3%;
+    white-space: normal;  
+    margin-bottom: 1%;
+}
+
+.fontOriginal {
+    font-size:0.9rem;  
+}
+
+.fontShortened {
+    font-size: 0.63rem;
+}
+}
+
+@media screen and (min-width:1000px)
+{
+.title {
+    color: #64BCDC;
+    font-family: "Almarai", sans-serif;
+    font-weight: bold;
+    width:100%;
+    padding:1.1%;
+    margin-left:5%;
+    margin-top: 3%;
+    white-space: normal;  
+    margin-bottom: 1%;
+}
+
+.fontOriginal {
+    font-size:2rem;  
+}
+
+.fontShortened {
+    font-size: 1.4rem;
+}
+}

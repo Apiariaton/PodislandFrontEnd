@@ -1,0 +1,24 @@
+@media screen and (max-width:449px)
+{
+.dialogueDesc {
+    margin-top:1rem;
+    margin-bottom:2rem;
+    inline-size: 16.8rem;
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+}
+
+@media screen and (min-width:450px)
+{
+
+.dialogueDesc {
+    margin-top:1rem;
+    margin-bottom:4rem;
+    inline-size: 24rem;
+    text-align: center;
+
+}
+}
+

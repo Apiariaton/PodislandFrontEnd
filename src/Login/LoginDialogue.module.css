@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Almarai";
+    src: url("../assets/fonts/Almarai/Almarai-Regular.ttf") format('truetype');
+}
+
+.LoginDialogue {
+    background-color: white;
+    border-radius: 1rem 1rem 1rem 1rem;
+    height:35rem;
+    width:25rem;
+    filter: drop-shadow(1.5px 2px 0.08rem rgba(0,0,0,0.6));
+    display:flex;
+    flex-direction: column;
+    font-family:"Almarai";
+}
+
+.errorMessage {
+    font-family:"Almarai",sans-serif;
+    display:block;
+    justify-content: center;
+    margin-left:8%;
+    font-size:1.4rem;
+    text-align: center;
+    margin-top:5%;
+    inline-size: 20rem;
+
+}
+
+.LoginButtonContainer {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top:5%;
+    
+    
+    
+    }
+    
+    .LoginButton {
+    width:20rem;
+    height:3rem;
+    border:none;
+    background-color:#4285F4;
+    border-radius: 1rem;
+    color:white;
+    font-family:"Almarai",sans-serif;
+    font-size:1.3rem;
+    font-weight: bold;
+    }
+
+    .testAccountLogin {
+        width:15rem;
+        margin-left:5rem;
+        border:none;
+        background-color: white;
+        text-decoration:underline;
+        text-decoration-color: #4285F4;;
+
+    }

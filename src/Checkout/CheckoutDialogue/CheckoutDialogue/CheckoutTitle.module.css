@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Almarai";
+    src: url("../assets/fonts/Almarai/Almarai-Regular.ttf") format('truetype');
+}
+
+.CheckoutTitle {
+    text-align: center;
+    justify-content: center;
+    width:100%;
+    margin-top:5%;
+    margin-bottom:10%;
+    font-size: 2.2rem;
+    font-family:"Almarai", sans-serif;
+}

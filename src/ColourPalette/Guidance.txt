@@ -1,0 +1,64 @@
+// How to organise this frontend application?
+// What is going to be stateful logic and what will be stored via Redux?
+// What will be reuseable and common components?
+// Which components will interact with the API and which will not?
+// What the relevant images within this application?
+
+// Relevant redux / libraries?
+// Bearer token saved as redux toolkit and accessed via local storage
+// Validator library for signing up
+// Redux for shopping basket
+// React Router
+
+// React Redux for managing whether to render whether a user is logged in (render 'Login' or 'Account' via navbar)
+// React Redux to store key user data, inc basket, email and username
+
+//State / useEffect per page
+//Sign Up -> useState(sign in details, managed via intermediary validator function)
+
+// Podcasts
+// useEffect -> Sort Button, Filter buttons and Search Button -> grab podcast like data simultaneously to populate hearts red or empty
+// useEffect -> Pagination bar
+// useState -> search results
+
+// Shop 
+// Basket - React Redux
+// localStorage to retrieve basket once user is authenticated
+
+// User Profile 
+// React Redux 
+// useState to render whether to open / close dialogue boxes
+
+
+
+
+// Auxiliary files // public folder
+// Colour, patterns and images folder
+// Expected API format folder
+// Images: circular gradient, podisland main image, waves SVG, podshop background, observatory image, island image, profile image
+
+// Shop / Podcasts /User Profile 
+
+//User Profile -> mini profile ->  settings dialogue -> upper panel -> base panel -> change password dialogue -> edit user details dialogue
+
+//Podcasts -> (filter bar) -> view more podcasts bar -> podcast card -> topmost panel -> mid-bottom panel
+
+// Shop -> top panel -> (filter bar) -> shop item card -> back panel -> footer panel
+
+// Checkout -> ?
+
+// Home -> intro circle -> main panel -> title bar -> footer panel
+
+// Sign Up -> back panel -> sign up dialogue -> sign up title -> sign up description -> sign up field with warning text below -> sign up button
+
+
+// Navigation components
+
+// Search box -> search box -> search field -> toggle filter button -> range radio button -> submit button 
+
+// Filter bar -> results found -> sort by list and submit
+
+// Navbar -> nav item
+
+
+// Images

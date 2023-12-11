@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Almarai";
+    src: url("../assets/fonts/Almarai/Almarai-Regular.ttf") format('truetype');
+}
+
+@media screen and (max-width:299px)
+{
+
+.CheckoutButtonContainer {
+width:100%;
+display: flex;
+justify-content: center;
+margin-top:15%;
+
+}
+
+.CheckoutButton {
+width:15rem;
+height:3rem;
+border:none;
+background-color:#4285F4;
+border-radius: 1rem;
+color:white;
+font-family:"Almarai",sans-serif;
+font-size:1.3rem;
+font-weight: bold;
+}
+
+.isDisabled {
+background-color:#D9D9D9;
+}
+}
+
+@media screen and (min-width:300px)
+{
+
+.CheckoutButtonContainer {
+width:100%;
+display: flex;
+justify-content: center;
+margin-top:15%;
+
+}
+
+.CheckoutButton {
+width:20rem;
+height:3rem;
+border:none;
+background-color:#4285F4;
+border-radius: 1rem;
+color:white;
+font-family:"Almarai",sans-serif;
+font-size:1.3rem;
+font-weight: bold;
+}
+
+.isDisabled {
+background-color:#D9D9D9;
+}
+}

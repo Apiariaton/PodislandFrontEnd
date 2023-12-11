@@ -1,0 +1,75 @@
+
+@media screen and (max-width: 999px)
+{
+    .bottom_panel_container {
+        background-color: #FFFFEB;
+        height:auto;
+        width:auto;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: center;
+        padding:5%
+        
+    }
+    
+    .bottom_panel_inner_container {
+        background-image:url("../../assets/images/podcastBG.png");
+        background-size: contain;
+        background-repeat: repeat-y;
+        height:auto;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+}
+
+
+@media screen and (min-width: 1000px)
+{
+
+    .bottom_panel_container {
+        background-color: #FFFFEB;
+        height:auto;
+        width:auto;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: center;
+        
+        
+    }
+    
+    
+
+    .bottom_panel_inner_container {
+        
+        background-image:url("../../assets/images/podcastBG.png");
+        background-size: contain;
+        background-repeat: repeat-y;
+        background-position:top;
+        height:auto;
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center;
+        justify-self: center;
+        padding:5%;
+    }
+
+    .resultsBar {
+        font-family:"Maven Pro";
+        margin-left:10%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

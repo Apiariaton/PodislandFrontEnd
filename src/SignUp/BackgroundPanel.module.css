@@ -1,0 +1,76 @@
+@media screen and (min-width:1000px)
+{
+
+.backgroundPanelInnerContainer {
+    background-image: url("../assets/images/signup.png");
+    height:70rem;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:70rem 100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.backgroundPanelContainer {
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:70rem;
+    /* background-color: #0d2031; */
+    background-color: #2C534D;
+    
+}
+
+.signUpDialogue {
+    background-color: white;
+    border-radius: 5% 5% 5% 5%;
+    height:40rem;
+    width:30rem;
+    filter: drop-shadow(1.5px 2px 0.08rem rgba(0,0,0,0.6));
+}
+
+}
+
+@media screen and (max-width:999px)
+{
+
+    .backgroundPanelInnerContainer {
+        background-image: url("../assets/images/signup.png");
+        height:70rem;
+        width:100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    
+    .backgroundPanelContainer {
+        display:flex;
+        justify-content: center;
+        width:100%;
+        height:70rem;
+        background-color: #0d2031;
+        
+    }
+    
+    .signUpDialogue {
+        background-color: white;
+        border-radius: 5% 5% 5% 5%;
+        height:35rem;
+        width:25rem;
+        filter: drop-shadow(1.5px 2px 0.08rem rgba(0,0,0,0.6));
+    }
+
+
+
+
+
+
+
+
+
+}

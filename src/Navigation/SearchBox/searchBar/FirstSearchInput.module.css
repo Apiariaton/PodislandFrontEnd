@@ -1,0 +1,82 @@
+@media screen and (max-width:449px)
+{
+
+.mainSearchInput  {
+    width:16.17rem;
+    height:0.924rem;
+    display:flex;
+    justify-content: center;
+    border: none; 
+    border-bottom: solid grey 1px;
+    text-align:center;
+    align-items: end;
+    margin-bottom:5%;
+    font-size:0.8778rem;
+    font-family:"Maven Pro","sans-serif";
+    font-weight: 300;
+}
+.mainSearchInput:focus
+{
+    outline:none;
+    border:none;
+    border-bottom: solid orange 1px;
+    text-align:center;
+    align-items:end;
+}
+}
+
+/* 
+@media screen and (min-width:400px) and  (max-width:999px)
+{
+
+.mainSearchInput  {
+    width:23.1rem;
+    height:1.32rem;
+    display:flex;
+    justify-content: center;
+    border: none; 
+    border-bottom: solid grey 1px;
+    text-align:center;
+    align-items: end;
+    margin-bottom:5%;
+    font-size:1.254rem;
+    font-family:"Maven Pro","sans-serif";
+    font-weight: 300;
+}
+.mainSearchInput:focus
+{
+    outline:none;
+    border:none;
+    border-bottom: solid orange 1px;
+    text-align:center;
+    align-items:end;
+}
+} */
+
+@media screen and (min-width:450px)
+{
+
+.mainSearchInput  {
+    width:35rem;
+    height:2rem;
+    display:flex;
+    justify-content: center;
+    border: none; 
+    border-bottom: solid grey 1px;
+    text-align:center;
+    align-items: end;
+    margin-bottom:5%;
+    font-size:1.9rem;
+    font-family:"Maven Pro","sans-serif";
+    font-weight: 300;
+}
+.mainSearchInput:focus
+{
+    outline:none;
+    border:none;
+    border-bottom: solid orange 1px;
+    text-align:center;
+    align-items:end;
+}
+}
+

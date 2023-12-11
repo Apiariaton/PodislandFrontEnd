@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Mukta Mahee";
+    src: url("../../assets/fonts/Mukta_Mahee/MuktaMahee-Regular.ttf") format('truetype');
+}
+
+@media screen and (max-width:999px)
+{
+.price {
+    font-size: 1.35rem;
+    font-family: 'Mukta Mahee';
+    margin-left:6%;
+}
+}
+@media screen and (min-width:1000px)
+{
+.price {
+    font-size: 3rem;
+    font-family: 'Mukta Mahee';
+    margin-left:3%;
+}
+}

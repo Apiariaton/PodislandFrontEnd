@@ -1,0 +1,8 @@
+.checkout {
+   background-color:#2C534D;
+   height:60rem;
+   display:flex;
+   justify-content: center;
+   padding:2%;
+   margin-top: 5rem;
+}

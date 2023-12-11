@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Inter&family=Poppins:wght@200&display=swap');
+
+.signUpDialogue {
+    background-color: white;
+    border-radius: 1rem 1rem 1rem 1rem;
+    height:38rem;
+    width:25rem;
+    filter: drop-shadow(1.5px 2px 0.08rem rgba(0,0,0,0.6));
+    display:flex;
+    flex-direction: column;
+    font-family:"Almarai";
+}
+
+.errorMessage {
+    font-family:"Almarai",sans-serif;
+    display:block;
+    justify-content: center;
+    margin-left:8%;
+    font-size:1.4rem;
+    text-align: center;
+    margin-top:5%;
+    inline-size: 20rem;
+
+}

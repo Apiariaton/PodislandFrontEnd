@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Almarai";
+    src: url("../assets/fonts/Almarai/Almarai-Regular.ttf") format('truetype');
+}
+
+.LoginTitle {
+    text-align: center;
+    justify-content: center;
+    width:100%;
+    margin-top:5%;
+    margin-bottom:10%;
+    font-size: 1.3rem;
+    font-family:"Almarai", sans-serif;
+}

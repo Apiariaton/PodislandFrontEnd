@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Maven Pro";
+    src: url("../../assets/fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf")
+      format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+@media screen and (max-width: 999px)
+{
+
+    .bottom_panel_container {
+        background-color: #FFFFEB;
+        height:auto;
+        width:auto;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: center;
+        
+    }
+    
+
+    .bottom_panel_inner_container {
+        background-image:url("../assets/images/podcastBG.png");
+        background-size: contain;
+        background-repeat: repeat-y;
+        height:auto;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .resultsBar {
+        font-family:"Maven Pro";
+        font-size:0.6rem;
+        width:100%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        height:2.5rem;
+    }
+
+    .containerLeft
+    {
+        margin-left:5%;
+
+    }
+
+
+    .containerRight {
+
+        margin-right:5%;
+
+    }
+
+    select {
+        font-size:0.6rem;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 1000px)
+{
+
+    .bottom_panel_container {
+        background-color: #FFFFEB;
+        height:auto;
+        width:auto;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: center;
+        padding:5%
+        
+    }
+    
+    
+  
+        
+
+    .bottom_panel_inner_container {
+        
+        background-image:url("../assets/images/podcastBG.png");
+        background-size: contain;
+        background-repeat: repeat-y;
+        background-position:top;
+        height:auto;
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        justify-self: center;
+        padding:5%;
+    }
+
+    .resultsBar {
+        font-family:"Maven Pro";
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        height:2.5rem;
+    }
+
+    .containerLeft
+    {
+        margin-left:5%;
+
+    }
+
+
+    .containerRight {
+
+        margin-right:10%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+}

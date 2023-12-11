@@ -1,0 +1,43 @@
+
+@media screen and (max-width:481px)
+{
+    .homeFooter {
+        background-color: #2C534D;
+        height:40rem;
+        width:100vw;
+    }
+}
+
+
+
+@media screen and (min-width:482px) and (max-width:550px)
+{
+    .homeFooter {
+        background-color: #2C534D;
+        height:30rem;
+        width:100vw;
+    }
+
+
+}
+
+/* 550 pixels */
+@media screen and (min-width:550px) and (max-width:1129px)
+{
+    .homeFooter {
+        background-color: #2C534D;
+        height:32rem;
+        width:100vw;
+    }
+}
+
+
+/* 1130px */
+@media screen and (min-width:1130px)
+{
+    .homeFooter {
+        background-color: #2C534D;
+        height:25rem;
+        width:100vw;
+    }
+}

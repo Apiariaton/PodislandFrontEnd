@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "Maven Pro";
+  src: url("../../assets/fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (max-width:449px){
+
+  @font-face {
+    font-family: "Maven Pro";
+    src: url("../../assets/fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf")
+      format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  html,body
+  {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; 
+  }
+  
+  .navbar {
+    /* background-color: #96e4a8; */
+    background-color:white;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width:100vw;
+    position: fixed;
+    top:0;
+    z-index:99;
+  }
+  
+  .navlink {
+    font-size: 0.6rem;
+    font-family: "Maven Pro", "sans-serif";
+    color: black;
+    /* background-color: #cbf3a3; */
+    margin-bottom: 0.2rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    text-decoration: underline;
+  }
+  
+  .navlink:hover {
+    color: #ff5733;
+  }
+  
+  .navlink span.basketItems
+  {
+    font-size: 0.5rem;
+    line-height: 0.5rem;
+    padding-right:0.22em;
+    padding-left:0.22em;
+    vertical-align:super;
+    text-decoration:none;
+    margin-left:-3%;
+    border-radius:100% 100%;
+    color:white;
+    background-color: red;
+  }
+  
+  
+  .navlink button {
+    border:none;
+    text-decoration: underline;
+    background-color: white;
+    color:black;
+    font-size: 0.6rem;
+    font-family: "Maven Pro", "sans-serif";
+  }
+  
+  .navlink button:hover{
+    color: #ff5733;
+  }
+
+}
+
+
+
+
+@media screen and (min-width:450px)
+{
+
+
+
+
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.navbar {
+  /* background-color: #96e4a8; */
+  background-color:white;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width:100vw;
+  position: fixed;
+  top:0;
+  z-index:99;
+}
+
+.navlink {
+  font-size: 1rem;
+  font-family: "Maven Pro", "sans-serif";
+  color: black;
+  /* background-color: #cbf3a3; */
+  margin-bottom: 0.2rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  text-decoration: underline;
+}
+
+.navlink:hover {
+  color: #ff5733;
+}
+
+.navlink span.basketItems
+{
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+  padding-right:0.22em;
+  padding-left:0.22em;
+  vertical-align:super;
+  text-decoration:none;
+  margin-left:-3%;
+  border-radius:100% 100%;
+  color:white;
+  background-color: red;
+}
+
+
+.navlink button {
+  border:none;
+  text-decoration: underline;
+  background-color: white;
+  color:black;
+  font-size: 1rem;
+  font-family: "Maven Pro", "sans-serif";
+}
+
+.navlink button:hover{
+  color: #ff5733;
+}
+}

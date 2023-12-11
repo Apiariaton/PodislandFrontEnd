@@ -1,0 +1,87 @@
+@media screen and (max-width:299px)
+{
+
+  .dialogueWindowContainer {
+    background-color: white;
+    height: 14rem;
+    width: 18rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    filter: drop-shadow(1.5px 2px 0.08rem rgba(0, 0, 0, 0.6));
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-family: "Almarai", sans-serif;
+    flex-direction: column;
+    z-index: 99;
+    position: absolute;
+  }
+
+  .dialogueInnerContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Almarai", sans-serif;
+  }
+
+  .titleHeader {
+    margin-left: 32.5%;
+  }
+
+
+}
+
+@media screen and (min-width:300px) and (max-width: 449px) {
+  .dialogueWindowContainer {
+    background-color: white;
+    height: 14rem;
+    width: 21rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    filter: drop-shadow(1.5px 2px 0.08rem rgba(0, 0, 0, 0.6));
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-family: "Almarai", sans-serif;
+    flex-direction: column;
+    z-index: 99;
+    position: absolute;
+  }
+
+  .dialogueInnerContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Almarai", sans-serif;
+  }
+
+  .titleHeader {
+    margin-left: 32.5%;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .dialogueWindowContainer {
+    background-color: white;
+    height: 20rem;
+    width: 30rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    filter: drop-shadow(1.5px 2px 0.08rem rgba(0, 0, 0, 0.6));
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-family: "Almarai", sans-serif;
+    flex-direction: column;
+    z-index: 99;
+    position: absolute;
+  }
+
+  .dialogueInnerContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Almarai", sans-serif;
+  }
+
+  .titleHeader {
+    margin-left: 32.5%;
+  }
+}
