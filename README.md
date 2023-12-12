@@ -4,6 +4,6 @@ The front-end for the Podisland project: this application allows the user to exp
 
 In the future, I would like to integrate more features to the application, specifically:
 
-A forum
-Basic podcast data dashboard
-A recommendation engine to recommend podcasts on the basis of previous users' likes 
+A forum <br/>
+Basic podcast data dashboard <br/>
+A recommendation engine to recommend podcasts on the basis of previous users' likes <br/>
