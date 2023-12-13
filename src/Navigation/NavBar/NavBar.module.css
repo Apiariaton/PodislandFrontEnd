@@ -47,7 +47,8 @@
     margin-bottom: 0.2rem;
     padding-left: 0.1rem;
     padding-right: 0.1rem;
-    text-decoration: underline;
+    text-decoration: none;
+    font-weight: normal;
   }
   
   .navlink:hover {
@@ -71,7 +72,7 @@
   
   .navlink button {
     border:none;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: white;
     color:black;
     font-size: 0.6rem;
@@ -126,7 +127,7 @@ html,body
   margin-bottom: 0.2rem;
   padding-left: 0.1rem;
   padding-right: 0.1rem;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .navlink:hover {
@@ -150,11 +151,11 @@ html,body
 
 .navlink button {
   border:none;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   background-color: white;
   color:black;
   font-size: 1rem;
-  font-family: "Maven Pro", "sans-serif";
+  font-family: "Almarai", "sans-serif";
 }
 
 .navlink button:hover{

@@ -62,13 +62,13 @@ function NavBar(props) {
     <Fragment>
       <nav className={`${styles.navbar}`}>
         <NavLink className={styles.navlink} to="/">
-          HOME
+          Home
         </NavLink>
         <NavLink className={styles.navlink} to="/podcasts">
-          PODCASTS
+          Podcasts
         </NavLink>
         <NavLink className={styles.navlink} to="/shop">
-          SHOP
+          Shop
         </NavLink>
         {authToken && (
           <div className={styles.navlink}>
@@ -77,7 +77,7 @@ function NavBar(props) {
                 toggleBasketVisible((prevState) => !prevState);
               }}
             >
-              BASKET{" "}
+              Basket{" "}
               {numberOfItemsInBasket != 0 ? (
                 <span className={styles.basketItems}>
                   {numberOfItemsInBasket}
@@ -90,7 +90,7 @@ function NavBar(props) {
         )}
         {authToken && (
           <NavLink className={styles.navlink} to="/account">
-            ACCOUNT
+            Account
           </NavLink>
         )}
         {authToken && (
@@ -101,18 +101,18 @@ function NavBar(props) {
                 logoutHandler();
               }}
             >
-              LOGOUT
+              Logout
             </button>
           </NavLink>
         )}
         {!authToken && (
           <NavLink className={styles.navlink} to="/login">
-            LOGIN
+            Login
           </NavLink>
         )}
         {!authToken && (
           <NavLink className={styles.navlink} to="/sign-up">
-            SIGN UP
+            Sign Up
           </NavLink>
         )}
       </nav>
