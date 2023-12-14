@@ -5,6 +5,16 @@
         background-color: #2C534D;
         height:40rem;
         width:100vw;
+        color: white;
+        font-size:2.8rem;
+        padding-left:5%;
+        padding-top:5%;
+        word-wrap: break-word;
+    }
+
+    .textContainer {
+        inline-size:20rem;
+        font-family:"Almarai",sans-serif;
     }
 }
 
@@ -16,7 +26,18 @@
         background-color: #2C534D;
         height:30rem;
         width:100vw;
+        color: white;
+        font-size:2.8rem;
+        padding-left:5%;
+        padding-top:5%;
+        word-wrap: break-word;
     }
+
+    .textContainer {
+        inline-size:20rem;
+        font-family:"Almarai",sans-serif;
+    }
+    
 
 
 }
@@ -26,8 +47,21 @@
 {
     .homeFooter {
         background-color: #2C534D;
-        height:32rem;
+        height:38rem;
         width:100vw;
+        color: white;
+        font-size:4.2rem;
+        word-wrap: break-word;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .textContainer {
+        inline-size:38rem;
+        font-family:"Almarai",sans-serif;
+        margin-bottom:5%;
     }
 }
 
@@ -37,7 +71,19 @@
 {
     .homeFooter {
         background-color: #2C534D;
-        height:25rem;
+        height:10rem;
         width:100vw;
+        color: white;
+        font-size:2.6rem;
+        word-wrap: break-word;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
     }
+
+    .textContainer {
+        font-family:"Almarai",sans-serif;    
+        margin-right:8%;  
+}
 }

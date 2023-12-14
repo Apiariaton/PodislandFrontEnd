@@ -72,8 +72,8 @@ function TopPanel() {
         filters={podFilters}
         clearFilters={podcastFilterSliceActions.clearFilters}
         toggleFilter={podcastFilterSliceActions.toggleFilterKeyword}
-        mainSearchInputPH={"Podcast Name"}
-        secondSearchInputPH={"Artist Name"}
+        mainSearchInputPH={" Podcast Name - Exact search "}
+        secondSearchInputPH={"Artist Name - Exact search"}
         updateFirstTextInput={podcastFilterSliceActions.changePodcastName}
         updateSecondTextInput={podcastFilterSliceActions.changeArtistName}
         configureRangeFilter={configureRangeFilter}

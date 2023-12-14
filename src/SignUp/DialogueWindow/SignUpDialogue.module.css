@@ -3,7 +3,7 @@
 .signUpDialogue {
     background-color: white;
     border-radius: 1rem 1rem 1rem 1rem;
-    height:38rem;
+    height:40rem;
     width:25rem;
     filter: drop-shadow(1.5px 2px 0.08rem rgba(0,0,0,0.6));
     display:flex;

@@ -8,7 +8,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { useState, prevState, useEffect, Fragment } from "react";
 import retrieveAuthTokenLoginOrCreate from "../UserBasketRedux/store/auth/retrieveAuthTokenLoginOrCreate";
+import { errorMessageSliceActions } from "../UserBasketRedux/store/errorMessage/errorMessageSlice";
 import { Snackbar, Alert } from "@mui/material";
+
 
 function LoginDialogue(props) {
   const [validForm, setValidForm] = useState({
@@ -46,6 +48,7 @@ function LoginDialogue(props) {
     //console.log(LoginWasSuccessful);
     LoginWasSuccessful ? setLoginIsSuccess(true) : setLoginIsSuccess(false);
     if (LoginWasSuccessful) {
+      dispatch(errorMessageSliceActions.clearAuthErrorMessage());
       setTimeout(() => {
         navigate("/");
       }, 3000);

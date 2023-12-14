@@ -9,7 +9,11 @@ return (
     <Fragment>
    
     <BackgroundPanel/>
-    <div className={styles.homeFooter}></div> 
+    <div className={styles.homeFooter}>
+        <div className={styles.textContainer}>
+     Share your favourite podcasts and hunt for new finds...    
+        </div>
+        </div> 
     </Fragment>
 )
 

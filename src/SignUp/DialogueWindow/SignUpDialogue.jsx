@@ -122,7 +122,7 @@ function SignUpDialogue(props) {
           return validator.isStrongPassword(value);
         }}
         updateCentralFieldData={setFieldData}
-        errorMessage="Please provide a password with at least one uppercase letter, one lowercase letter and one symbol...(A-Za-z1-9!#?-.)"
+        errorMessage="Please provide a password with at least one uppercase letter, one lowercase letter, one symbol and one number...(A-Za-z1-9!#?-.)"
 
       />
 
