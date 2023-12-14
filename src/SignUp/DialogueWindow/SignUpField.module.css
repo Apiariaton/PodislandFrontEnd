@@ -37,3 +37,11 @@
     opacity:1;
     color:black;
 }
+
+.invalidField {
+    border: solid red 1px;    
+}
+
+.validField {
+    border: solid green 1px;
+}

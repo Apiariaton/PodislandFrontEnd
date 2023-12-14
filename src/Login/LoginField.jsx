@@ -21,11 +21,13 @@ function fieldIsValid(value)
     }
 };
 
+const loginFieldClasses = `${styles.LoginInput} ${errorIsActive ? styles.invalidInput : styles.validInput}`;
+
 // useEffect(()=>{props.checkField(fieldValue) ? fieldIsValid(true) : fieldIsValid(false)},[props.checkField,fieldValue,fieldIsValid]);
 //useEffect(()=>{},[]);
 
 return <Fragment><div className={styles.LoginInputContainer}>
-    <input className={styles.LoginInput} onBlur={(event)=>{fieldIsValid(event.target.value)}}onChange={(event)=>{fieldIsValid(event.target.value)}} type="text" placeholder={props.placeholder}></input>
+    <input className={loginFieldClasses} onBlur={(event)=>{fieldIsValid(event.target.value)}}onChange={(event)=>{fieldIsValid(event.target.value)}} type="text" placeholder={props.placeholder}></input>
     </div>
     <div className={styles.errorMessage}>{errorIsActive && props.errorMessage}</div>
     </Fragment>

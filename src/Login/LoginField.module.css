@@ -37,3 +37,11 @@
     opacity:1;
     color:black;
 }
+
+.validInput {
+    border: solid green 1px;
+}
+
+.invalidInput {
+    border: solid red 1px;
+}

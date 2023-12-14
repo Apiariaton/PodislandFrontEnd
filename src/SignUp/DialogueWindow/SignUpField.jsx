@@ -10,6 +10,8 @@ function SignUpField(props){
 const [fieldValue,setFieldValue] = useState("");
 const [errorIsActive,setErrorIsActive] = useState(null);
 
+const inputFieldClasses = `${styles.signUpInput} ${errorIsActive ? styles.invalidField : styles.validField}`;
+
 function fieldIsValid(value)
 {
     setFieldValue(value);
@@ -26,7 +28,7 @@ function fieldIsValid(value)
 //useEffect(()=>{},[]);
 
 return <Fragment><div className={styles.signUpInputContainer}>
-    <input className={styles.signUpInput} onBlur={(event)=>{fieldIsValid(event.target.value)}}onChange={(event)=>{fieldIsValid(event.target.value)}} type="text" placeholder={props.placeholder}></input>
+    <input className={inputFieldClasses} onBlur={(event)=>{fieldIsValid(event.target.value)}}onChange={(event)=>{fieldIsValid(event.target.value)}} type="text" placeholder={props.placeholder}></input>
     </div>
     <div className={styles.errorMessage}>{errorIsActive && props.errorMessage}</div>
     </Fragment>

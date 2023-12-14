@@ -79,7 +79,7 @@ function SignUpDialogue(props) {
         checkField={(value) => {
           return validator.isAlphanumeric(value);
         }}
-        errorMessage="Please enter a username which contains only numbers and letters..."
+        errorMessage="Enter a username that contains only numbers and letters.Spaces are not allowed. (0-9A-Za-z)"
       />
 
       <SignUpField
@@ -95,7 +95,7 @@ function SignUpDialogue(props) {
             value.split(" ").filter(value => !validator.isEmpty(value)).length >= 2)
         }}
         updateCentralFieldData={setFieldData}
-        errorMessage="Please enter a full name (at least two initials) which contains letters only..."
+        errorMessage="Enter a first and last name, separated by a space, that contains letters only...(A-Z a-z)"
       />
 
       <SignUpField
@@ -122,7 +122,7 @@ function SignUpDialogue(props) {
           return validator.isStrongPassword(value);
         }}
         updateCentralFieldData={setFieldData}
-        errorMessage="Please provide a strong password (min 8 characters) which contains at least one uppercase letter, one lowercase letter and one symbol ..."
+        errorMessage="Please provide a password with at least one uppercase letter, one lowercase letter and one symbol...(A-Za-z1-9!#?-.)"
 
       />
 

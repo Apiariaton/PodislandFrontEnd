@@ -24,7 +24,7 @@
     margin-left:8%;
     font-size:1.4rem;
     text-align: center;
-    margin-top:5%;
+    margin-top:2%;
     inline-size: 20rem;
 
 }
@@ -83,16 +83,15 @@
     margin-left:8%;
     font-size:1.4rem;
     text-align: center;
-    margin-top:5%;
+    margin-top:1%;
     inline-size: 20rem;
-
 }
 
 .LoginButtonContainer {
     width:100%;
     display: flex;
     justify-content: center;
-    margin-top:5%;
+    margin-top:2%;
     
     
     

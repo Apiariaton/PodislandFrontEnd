@@ -98,7 +98,7 @@ function LoginDialogue(props) {
             return validator.isStrongPassword(value);
           }}
           updateCentralFieldData={setFieldData}
-          errorMessage="Please provide the strong password (min 8 characters) which contains at least one uppercase letter, one lowercase letter and one symbol you used to create your account..."
+          errorMessage="Please enter the password you used to create your account..."
         />
 
         <LoginButton
