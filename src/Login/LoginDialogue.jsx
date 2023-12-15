@@ -75,7 +75,7 @@ function LoginDialogue(props) {
             });
           }}
         >
-          Login with test account...
+          Login with test account... (first login takes 45s - 1min for the backend to process...)
         </button>
 
         <LoginField
