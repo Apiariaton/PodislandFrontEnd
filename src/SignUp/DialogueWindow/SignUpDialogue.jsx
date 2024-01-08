@@ -68,7 +68,7 @@ function SignUpDialogue(props) {
     <div className={styles.signUpDialogue}>
       <SignUpTitle title="Sign Up" />
       
-      <SignUpDesc desc="Create a Podisland account today to explore your favourite podcasts for free - the first sign in attempt takes 45s - 1min for the backend to process" />
+      <SignUpDesc desc="Create a Podisland account today to explore your favourite podcasts for free - first sign up can take 10 - 15 minutes for the backend to process..." />
       <SignUpField
         placeholder={"Username"}
         centralDataKey={"Username"}
