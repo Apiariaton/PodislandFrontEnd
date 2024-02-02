@@ -1,9 +1,18 @@
 # PodislandFrontEnd
 
-The front-end for the Podisland project: this application allows the user to explore podcasts, login and create an account, as well as place orders.
+Podisland was designed to allow users to explore podcasts, as I couldn't find many sites where it was possible to hunt down a good podcast.
 
-In the future, I would like to integrate more features to the application, specifically:
+The site includes a range of features:
 
-A forum <br/>
-Basic podcast data dashboard <br/>
-A recommendation engine to recommend podcasts on the basis of previous users' likes <br/>
+-A sign up and login page
+-Email notifications when you create or delete an account / place an order
+-A Stripe checkout dialogue
+-A shopping basket
+
+To explore Podisland, click the link below:
+
+https://podisland.netlify.app/
+
+
+
+
